@@ -2,10 +2,11 @@
   "name": "fcc-learn-npm-package-json",
   "author": "Himanshu Kumar (@Himanshu-Kumar)",
   "keywords": ["freecodecamp", "work", "hello"],
-"dependencies": {
-  "package-name": "version",
-  "express": "4.14.0"
-},
+  "dependencies": {
+    "express": "^4.14.0",
+        "@freecodecamp/example": "1.1.0"
+
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
